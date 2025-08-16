@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: face-generator-app
+Version: 0.1.0
+Summary: A Streamlit app to generate images of a specific person based on a prompt.
+Requires-Python: >=3.8
+Requires-Dist: streamlit>=1.30.0
+Requires-Dist: Pillow>=10.0.0

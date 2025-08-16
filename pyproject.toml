@@ -1,0 +1,17 @@
+[project]
+name = "face-generator-app"
+version = "0.1.0"
+description = "A Streamlit app to generate images of a specific person based on a prompt."
+requires-python = ">=3.8"
+dependencies = [
+    "streamlit>=1.30.0",
+    "Pillow>=10.0.0",
+    "torch>=2.0.0",
+    "diffusers>=0.20.0",
+    "transformers>=4.30.0",
+    "accelerate>=0.20.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
